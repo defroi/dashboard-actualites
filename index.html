@@ -1,1 +1,254 @@
-<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Dashboard Actualités</title><meta name="description" content="Dashboard d'actualités avec onglets: instructions, internationales, IA, technologies, sciences, Europe, France"/><style>body{margin:0;font-family:system-ui,Segoe UI,Inter,Arial,sans-serif;background:#0b1020;color:#e7ecff}a{color:#5a8cff}.container{max-width:1100px;margin:32px auto;padding:0 16px}.header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px}.pill{padding:2px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.12);color:#a9b5d9;font-size:12px}.panel{background:linear-gradient(180deg,#111936,#0e1530);border:1px solid rgba(255,255,255,.08);border-radius:14px}.tabs{display:flex;gap:8px;flex-wrap:wrap;padding:10px;border-bottom:1px solid rgba(255,255,255,.08)}.tab{border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.02);color:#e7ecff;padding:10px 14px;border-radius:10px;font-weight:600;font-size:13px;cursor:pointer}.tab[aria-selected="true"]{background:rgba(90,140,255,.15);border-color:rgba(90,140,255,.35)}.badge{font-size:11px;color:#0a0f1f;background:linear-gradient(180deg,#cfe0ff,#9fc0ff);border:1px solid rgba(0,0,0,.12);padding:2px 6px;border-radius:999px;font-weight:700;margin-left:6px}.content{padding:18px}.section{display:none}.section.active{display:block}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:14px}.kicker{font-size:11px;color:#7afff3;text-transform:uppercase;letter-spacing:.12em;font-weight:800}.headline{margin:6px 0 8px;font-size:15px;line-height:1.35}.meta{font-size:12px;color:#a9b5d9}</style></head><body><div class="container"><div class="header"><h1 style="margin:0;font-size:20px">Dashboard Actualités</h1><div class="pill">Maj: <span id="dt"></span></div></div><div class="panel"><div class="tabs" role="tablist" id="tabs"><button class="tab" role="tab" aria-selected="true" aria-controls="tab-instructions" id="t-instructions">Instructions</button><button class="tab" role="tab" aria-selected="false" aria-controls="tab-international" id="t-international">International <span class="badge">10</span></button><button class="tab" role="tab" aria-selected="false" aria-controls="tab-ia" id="t-ia">IA <span class="badge">5</span></button><button class="tab" role="tab" aria-selected="false" aria-controls="tab-tech" id="t-tech">Avancées technologiques <span class="badge">5</span></button><button class="tab" role="tab" aria-selected="false" aria-controls="tab-science" id="t-science">Avancées scientifiques <span class="badge">5</span></button><button class="tab" role="tab" aria-selected="false" aria-controls="tab-europe" id="t-europe">Europe <span class="badge">5</span></button><button class="tab" role="tab" aria-selected="false" aria-controls="tab-france" id="t-france">France <span class="badge">5</span></button></div><div class="content"><section id="tab-instructions" class="section active" role="tabpanel" aria-labelledby="t-instructions"><div class="grid"><div class="card"><div class="kicker">Objectif</div><div class="headline">Consulter un tableau de bord d’actualités par catégories</div><div class="meta">Interface de démonstration avec contenu générique.</div></div><div class="card"><div class="kicker">Navigation</div><div class="headline">Utilisez les onglets pour parcourir chaque section</div><div class="meta">Accessible clavier: flèches gauche/droite, Entrée/Espace</div></div></div><ul class="meta" style="margin-top:12px"><li>International (10), IA (5), Tech (5), Sciences (5), Europe (5), France (5)</li><li>Design sobre et professionnel, responsive</li><li>Remplacez par vos sources réelles si besoin</li></ul></section><section id="tab-international" class="section" role="tabpanel" aria-labelledby="t-international"><div class="grid"><div class="card"><div class="kicker">International</div><div class="headline">Sommet mondial: sécurité, climat et économie</div><div class="meta">Agence — 2 h</div></div><div class="card"><div class="kicker">Géopolitique</div><div class="headline">Négociations pour stabiliser une région en tension</div><div class="meta">Rédaction — 3 h</div></div><div class="card"><div class="kicker">Économie</div><div class="headline">Marchés: réaction à un plan de relance</div><div class="meta">Marchés — 4 h</div></div><div class="card"><div class="kicker">Climat</div><div class="headline">Rapport sur l’accélération des extrêmes</div><div class="meta">Science — Hier</div></div><div class="card"><div class="kicker">Santé</div><div class="headline">Préparation sanitaire internationale renforcée</div><div class="meta">Santé — 5 h</div></div><div class="card"><div class="kicker">Technologie</div><div class="headline">Standards ouverts pour l’interopérabilité</div><div class="meta">Tech — 1 h</div></div><div class="card"><div class="kicker">Énergie</div><div class="headline">Accords sur les interconnexions</div><div class="meta">Énergie — 6 h</div></div><div class="card"><div class="kicker">Culture</div><div class="headline">Saison des festivals: créations émergentes</div><div class="meta">Culture — Aujourd’hui</div></div><div class="card"><div class="kicker">Transports</div><div class="headline">Corridors logistiques plus résilients</div><div class="meta">Logistique — 2 h</div></div><div class="card"><div class="kicker">Numérique</div><div class="headline">Coalition pour la cybersécurité</div><div class="meta">Cyber — 30 min</div></div></div></section><section id="tab-ia" class="section" role="tabpanel" aria-labelledby="t-ia"><div class="grid"><div class="card"><div class="kicker">IA générative</div><div class="headline">Nouveau modèle multimodal pour documents</div><div class="meta">IA — 1 h</div></div><div class="card"><div class="kicker">MLOps</div><div class="headline">Observabilité et gouvernance de bout en bout</div><div class="meta">Engineering — 3 h</div></div><div class="card"><div class="kicker">Éthique</div><div class="headline">Cadre de transparence et explicabilité</div><div class="meta">Policy — Aujourd’hui</div></div><div class="card"><div class="kicker">Recherche</div><div class="headline">Entraînement frugal en données</div><div class="meta">Research — Hier</div></div><div class="card"><div class="kicker">Produits</div><div class="headline">Assistants spécialisés en entreprise</div><div class="meta">Produit — 2 h</div></div></div></section><section id="tab-tech" class="section" role="tabpanel" aria-labelledby="t-tech"><div class="grid"><div class="card"><div class="kicker">Matériel</div><div class="headline">Processeurs optimisés pour IA</div><div class="meta">HW — 2 h</div></div><div class="card"><div class="kicker">Logiciel</div><div class="headline">Cadre web rapide pour temps réel</div><div class="meta">Dev — 4 h</div></div><div class="card"><div class="kicker">Réseaux</div><div class="headline">5G/6G: latences record</div><div class="meta">Telco — 5 h</div></div><div class="card"><div class="kicker">Cloud</div><div class="headline">Souveraineté et cloud de confiance</div><div class="meta">Cloud — Aujourd’hui</div></div><div class="card"><div class="kicker">Sécurité</div><div class="headline">Pratiques Zero Trust pour PME</div><div class="meta">Sec — 1 h</div></div></div></section><section id="tab-science" class="section" role="tabpanel" aria-labelledby="t-science"><div class="grid"><div class="card"><div class="kicker">Espace</div><div class="headline">Observation détaillée d’exoplanètes</div><div class="meta">Astro — 2 h</div></div><div class="card"><div class="kicker">Santé</div><div class="headline">Essais cliniques prometteurs</div><div class="meta">Médical — Hier</div></div><div class="card"><div class="kicker">Climat</div><div class="headline">Modèle affiné des projections régionales</div><div class="meta">Climat — 3 h</div></div><div class="card"><div class="kicker">Matériaux</div><div class="headline">Composite léger et résistant</div><div class="meta">Matériaux — 5 h</div></div><div class="card"><div class="kicker">Énergie</div><div class="headline">Stockage longue durée</div><div class="meta">Énergie — Aujourd’hui</div></div></div></section><section id="tab-europe" class="section" role="tabpanel" aria-labelledby="t-europe"><div class="grid"><div class="card"><div class="kicker">UE</div><div class="headline">Feuille de route innovation</div><div class="meta">Bruxelles — 1 h</div></div><div class="card"><div class="kicker">Économie</div><div class="headline">Investissements pour la transition</div><div class="meta">Économie — Aujourd’hui</div></div><div class="card"><div class="kicker">Énergie</div><div class="headline">Interconnexions renforcées</div><div class="meta">Énergie — 4 h</div></div><div class="card"><div class="kicker">Numérique</div><div class="headline">Résilience cyber des services</div><div class="meta">Numérique — 2 h</div></div><div class="card"><div class="kicker">Transports</div><div class="headline">Réseaux et hubs modernisés</div><div class="meta">Transports — 5 h</div></div></div></section><section id="tab-france" class="section" role="tabpanel" aria-labelledby="t-france"><div class="grid"><div class="card"><div class="kicker">Économie</div><div class="headline">Indicateurs en légère progression</div><div class="meta">France — 3 h</div></div><div class="card"><div class="kicker">Innovation</div><div class="headline">Écosystème deeptech en mouvement</div><div class="meta">France — 2 h</div></div><div class="card"><div class="kicker">Énergie</div><div class="headline">Déploiements renouvelables locaux</div><div class="meta">France — Aujourd’hui</div></div><div class="card"><div class="kicker">Numérique</div><div class="headline">Initiatives data et cybersécurité</div><div class="meta">France — 1 h</div></div><div class="card"><div class="kicker">Société</div><div class="headline">Projets territoriaux et culture</div><div class="meta">France — Cette semaine</div></div></div></section></div><div style="padding:12px;border-top:1px solid rgba(255,255,255,.08);color:#a9b5d9;font-size:12px">Exemple — Remplacez par vos sources réelles. © 2025</div></div></div><script>const tabs=document.querySelectorAll('.tab');const sections=document.querySelectorAll('.section');function activate(id){tabs.forEach(t=>t.setAttribute('aria-selected',String(t.id===`t-${id}`)));sections.forEach(s=>s.classList.toggle('active',s.id===`tab-${id}`));}tabs.forEach(t=>t.addEventListener('click',()=>activate(t.id.replace('t-',''))));document.addEventListener('keydown',e=>{const i=[...tabs].findIndex(t=>t.getAttribute('aria-selected')==='true');if(['ArrowRight','ArrowLeft'].includes(e.key)){e.preventDefault();const n=e.key==='ArrowRight'?(i+1)%tabs.length:(i-1+tabs.length)%tabs.length;tabs[n].focus();}if(e.key==='Enter'||e.key===' '){const focused=document.activeElement;if(focused&&focused.classList.contains('tab')){activate(focused.id.replace('t-',''));}}});document.getElementById('dt').textContent=new Date().toLocaleString('fr-FR');</script></body></html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard Actualités</title>
+  <meta name="description" content="Dashboard d'actualités avec onglets: instructions, internationales, IA, technologies, sciences, Europe, France" />
+  <style>
+    :root { color-scheme: dark; }
+    body{margin:0;font-family:system-ui,Segoe UI,Inter,Arial,sans-serif;background:#0b1020;color:#e7ecff}
+    a{color:#5a8cff}
+    .container{max-width:1100px;margin:32px auto;padding:0 16px}
+    .header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px}
+    .pill{padding:2px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.12);color:#a9b5d9;font-size:12px}
+    .panel{background:linear-gradient(180deg,#111936,#0e1530);border:1px solid rgba(255,255,255,.08);border-radius:14px}
+    .tabs{display:flex;gap:8px;flex-wrap:wrap;padding:10px;border-bottom:1px solid rgba(255,255,255,.08)}
+    .tab{border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.02);color:#e7ecff;padding:10px 14px;border-radius:10px;font-weight:600;font-size:13px;cursor:pointer}
+    .tab[aria-selected="true"]{background:rgba(90,140,255,.15);border-color:rgba(90,140,255,.35)}
+    .badge{font-size:11px;color:#0a0f1f;background:linear-gradient(180deg,#cfe0ff,#9fc0ff);border:1px solid rgba(0,0,0,.12);padding:2px 6px;border-radius:999px;font-weight:700;margin-left:6px}
+    .content{padding:18px}
+    .section{display:none}
+    .section.active{display:block}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:14px}
+    .kicker{font-size:11px;color:#7afff3;text-transform:uppercase;letter-spacing:.12em;font-weight:800}
+    .headline{margin:6px 0 8px;font-size:15px;line-height:1.35}
+    .meta{font-size:12px;color:#a9b5d9}
+    .actions{margin-top:10px;display:flex;gap:8px;align-items:center}
+    .btn{display:inline-block;background:#5a8cff;color:#0a0f1f;font-weight:700;border:1px solid rgba(0,0,0,.2);padding:8px 10px;border-radius:8px;text-decoration:none;font-size:13px}
+    .url{font-size:11px;color:#9fb2ff;word-break:break-all}
+    @media (max-width:720px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 style="margin:0;font-size:20px">Dashboard Actualités</h1>
+      <div class="pill">Maj: <span id="dt"></span></div>
+    </div>
+
+    <div class="panel">
+      <div class="tabs" id="tabs" role="tablist">
+        <button class="tab" role="tab" id="t-instructions" aria-controls="tab-instructions" aria-selected="true">Instructions</button>
+        <button class="tab" role="tab" id="t-international" aria-controls="tab-international" aria-selected="false">International <span class="badge">3</span></button>
+        <button class="tab" role="tab" id="t-ia" aria-controls="tab-ia" aria-selected="false">IA <span class="badge">3</span></button>
+        <button class="tab" role="tab" id="t-tech" aria-controls="tab-tech" aria-selected="false">Technologie <span class="badge">3</span></button>
+        <button class="tab" role="tab" id="t-science" aria-controls="tab-science" aria-selected="false">Science <span class="badge">3</span></button>
+        <button class="tab" role="tab" id="t-europe" aria-controls="tab-europe" aria-selected="false">Europe <span class="badge">3</span></button>
+        <button class="tab" role="tab" id="t-france" aria-controls="tab-france" aria-selected="false">France <span class="badge">3</span></button>
+      </div>
+
+      <div class="content">
+        <section id="tab-instructions" class="section active" role="tabpanel" aria-labelledby="t-instructions">
+          <div class="grid">
+            <div class="card">
+              <div class="kicker">Objectif</div>
+              <div class="headline">Voir un résumé court et un lien pour chaque actu.</div>
+              <div class="meta">Style simple, robotique, sans fioritures.</div>
+            </div>
+            <div class="card">
+              <div class="kicker">Exclusions</div>
+              <div class="headline">Aucun suivi, aucune personnalisation invasive.</div>
+              <div class="meta">Contenu statique de démonstration; remplacez les URLs par vos sources.</div>
+            </div>
+            <div class="card">
+              <div class="kicker">Utilisation</div>
+              <div class="headline">Cliquez sur “Lire l’article” pour ouvrir la source.</div>
+              <div class="meta">Le lien complet reste visible et cliquable.</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tab-international" class="section" role="tabpanel" aria-labelledby="t-international">
+          <div class="grid">
+            <div class="card">
+              <div class="kicker">International</div>
+              <div class="headline">Sommet mondial: sécurité, climat et économie.</div>
+              <div class="meta">Résumé: dirigeants discutent d’accords sur sécurité et climat.</div>
+              <div class="actions">
+                <a class="btn" href="https://www.bbc.com/news" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://www.bbc.com/news</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">Géopolitique</div>
+              <div class="headline">Pourparlers pour stabiliser une région en tension.</div>
+              <div class="meta">Résumé: médiation internationale en cours.</div>
+              <div class="actions">
+                <a class="btn" href="https://www.reuters.com/world/" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://www.reuters.com/world/</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">Économie</div>
+              <div class="headline">Les marchés réagissent à un plan de relance.</div>
+              <div class="meta">Résumé: indices en hausse après annonces.</div>
+              <div class="actions">
+                <a class="btn" href="https://www.ft.com/world" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://www.ft.com/world</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tab-ia" class="section" role="tabpanel" aria-labelledby="t-ia">
+          <div class="grid">
+            <div class="card">
+              <div class="kicker">IA générative</div>
+              <div class="headline">Nouveau modèle multimodal publié.</div>
+              <div class="meta">Résumé: meilleure compréhension texte-image.</div>
+              <div class="actions">
+                <a class="btn" href="https://ai.googleblog.com/" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://ai.googleblog.com/</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">MLOps</div>
+              <div class="headline">Outils d’observabilité de bout en bout.</div>
+              <div class="meta">Résumé: suivi des données et modèles.</div>
+              <div class="actions">
+                <a class="btn" href="https://blog.mlflow.org/" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://blog.mlflow.org/</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">Éthique</div>
+              <div class="headline">Principes de transparence et d’explicabilité.</div>
+              <div class="meta">Résumé: cadre de gouvernance.</div>
+              <div class="actions">
+                <a class="btn" href="https://openai.com/blog" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://openai.com/blog</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tab-tech" class="section" role="tabpanel" aria-labelledby="t-tech">
+          <div class="grid">
+            <div class="card">
+              <div class="kicker">Matériel</div>
+              <div class="headline">Processeurs optimisés pour IA.</div>
+              <div class="meta">Résumé: gains en performance et efficacité.</div>
+              <div class="actions">
+                <a class="btn" href="https://www.anandtech.com/" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://www.anandtech.com/</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">Logiciel</div>
+              <div class="headline">Cadre web temps réel.</div>
+              <div class="meta">Résumé: latence réduite et simplicité.</div>
+              <div class="actions">
+                <a class="btn" href="https://developer.chrome.com/blog/" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://developer.chrome.com/blog/</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">Sécurité</div>
+              <div class="headline">Zero Trust pour PME.</div>
+              <div class="meta">Résumé: bonnes pratiques et outils.</div>
+              <div class="actions">
+                <a class="btn" href="https://krebsonsecurity.com/" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://krebsonsecurity.com/</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tab-science" class="section" role="tabpanel" aria-labelledby="t-science">
+          <div class="grid">
+            <div class="card">
+              <div class="kicker">Espace</div>
+              <div class="headline">Observation détaillée d’exoplanètes.</div>
+              <div class="meta">Résumé: nouvelles données spectrales.</div>
+              <div class="actions">
+                <a class="btn" href="https://www.nasa.gov/news/all-news/" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://www.nasa.gov/news/all-news/</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">Santé</div>
+              <div class="headline">Essais cliniques prometteurs.</div>
+              <div class="meta">Résumé: efficacité confirmée.</div>
+              <div class="actions">
+                <a class="btn" href="https://www.who.int/news" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://www.who.int/news</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">Climat</div>
+              <div class="headline">Modèles régionaux affinés.</div>
+              <div class="meta">Résumé: projections plus précises.</div>
+              <div class="actions">
+                <a class="btn" href="https://www.ipcc.ch/news/" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://www.ipcc.ch/news/</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tab-europe" class="section" role="tabpanel" aria-labelledby="t-europe">
+          <div class="grid">
+            <div class="card">
+              <div class="kicker">UE</div>
+              <div class="headline">Feuille de route innovation.</div>
+              <div class="meta">Résumé: priorités 2025 annoncées.</div>
+              <div class="actions">
+                <a class="btn" href="https://ec.europa.eu/commission/presscorner/home/en" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://ec.europa.eu/commission/presscorner/home/en</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">Économie</div>
+              <div class="headline">Investissements pour la transition.</div>
+              <div class="meta">Résumé: fonds mobilisés.</div>
+              <div class="actions">
+                <a class="btn" href="https://www.economist.com/europe" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://www.economist.com/europe</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">Numérique</div>
+              <div class="headline">Résilience cyber des services.</div>
+              <div class="meta">Résumé: nouvelles normes.</div>
+              <div class="actions">
+                <a class="btn" href="https://digital-strategy.ec.europa.eu/en/news" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://digital-strategy.ec.europa.eu/en/news</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tab-france" class="section" role="tabpanel" aria-labelledby="t-france">
+          <div class="grid">
+            <div class="card">
+              <div class="kicker">Économie</div>
+              <div class="headline">Indicateurs en légère progression.</div>
+              <div class="meta">Résumé: amélioration graduelle.</div>
+              <div class="actions">
+                <a class="btn" href="https://www.lemonde.fr/economie/" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://www.lemonde.fr/economie/</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker">Innovation</div>
+              <div class="headline">Écosystème deeptech en mouvement.</div>
+              <div class="meta">Résumé: nouvelles levées et projets.</div>
+              <div class="actions">
+                <a class="btn" href="https://www.usinenouvelle.com/innovation/" target="_blank" rel="noopener">Lire l’article</a>
+                <span class="url">https://www.usinenouvelle.com/innovation/</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="kicker
